@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    font-family: "Segoe UI";
+  }
+  /*Navbar*/
+  nav {
+    background-color: #24292e;
+    height: 62px;
+    width: 100%;
+    line-height: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .git-logo {
+    margin: 0 0 0 30px;
+  }
+  
+  .git-logo img {
+    border-radius: 50%;
+    size: small;
+    width: 40px;
+    margin: 10px;
+  }
+  .sec1 i {
+    margin-top: 22px;
+    color: white;
+    font-size: 18px;
+    display: none;
+  }
+  .sec1 {
+    display: flex;
+  }
+  .input-bx {
+    width: 250px;
+  }
+  .sec1 input {
+    border: 1px solid #444d56;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    height: 28px;
+    background-color: #24292e;
+    padding: 0 12px;
+    margin-left: 15px;
+  }
+  .input-bx ::placeholder {
+    color: lightgray;
+  }
+  .sec1 ul {
+    width: 400px;
+    margin-left: 50px;
+  }
+  .sec1 li {
+    display: inline;
+  }
+  .sec1 a {
+    font-size: 14px;
+  
+    font-weight: 600;
+    color: rgba(255, 255, 255);
+    margin-left: 9px;
+    line-height: 65px;
+  }
+  nav .side-b {
+    padding: 0 30px 0 0;
+  }
+  .side-b span {
+    color: white;
+  }
+  .side-b i {
+    margin-left: 20px;
+    color: white;
+    font-weight: 1;
+  }
+  svg {
+    color: white;
+  }
+  .nav2 {
+    display: none;
+  }
+  /* sub-menu1 */
+  .sub-menu1 {
+    border-bottom: 1px solid #e1e4e8;
+    width: 100%;
+    height: 55px;
+    margin-bottom: 1rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 0;
+  }
+  .sub-menu1 li {
+    display: inline;
+  }
+  .sub-menu1 ul {
+    padding-left: 30%;
+    display: block;
+  }
+  .sub-menu1 a {
+    font-size: 14px;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    color: rgba(0, 0, 0);
+    margin-right: 1rem;
+    line-height: 63px;
+  }
+  .active span:nth-child(2) {
+    padding: 0.5px 8px;
+    background-color: #999;
+    border-radius: 50px;
+  }
+  .active {
+    padding: 0 2rem 0.77rem 2rem;
+    border-bottom: 0.18rem solid #f9826c;
+  }
+  .dp-icon img {
+    width: 25px;
+    /* margin:0 1px; */
+    margin-right: 2px;
+    border-radius: 50%;
+  }
+  .pill {
+    background: #999;
+  }
+  .fa-circle {
+    color: #a81e05;
+  }
+  /* page-content */
+  main {
+    display: grid;
+    grid-template-columns: 27% auto;
+    padding: 0 3rem;
+    height: 300vh;
+    z-index: -10;
+  }
+  
+  main section:first-child {
+    margin-top: -3rem;
+    padding: 0 2rem 0 0rem;
+    /* z-index: 100; */
+  }
+  main .image {
+    z-index: 500;
+    position: relative;
+  }
+  main .image img {
+    width: 100%;
+    border-radius: 50%;
+    z-index: 1000;
+    background-color: blanchedalmond;
+  }
+  
+  .list-of-repo input {
+    width: 99%;
+    height: 35px;
+    border: 1px solid #e1e4e8;
+    border-radius: 5px;
+    padding: 0 0 0 10px;
+  }
+  .find-repo {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e1e4e8;
+  }
+  .repository h2 {
+    font-weight: 600;
+    color: #0366d6;
+    margin-bottom: 0.4rem;
+  }
+  
+  .repository .sect1 div {
+    margin-top: 0.5rem;
+  }
+  .repository .shift {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .repository button {
+    padding: 0.2rem 1.1rem;
+    border-radius: 3px;
+    border: 0.5px solid lightgray;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .repository button span {
+    color: #6a737d;
+    font-weight: 600;
+  }
+  .repository .repo-card {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e1e4e8;
+    padding: 1.5rem 0 2rem 0;
+    margin-top: 1rem;
+  }
+  .sub-menu {
+    display: none;
+    border-bottom: 1px solid #e1e4e8;
+    width: 100%;
+    height: 55px;
+    margin-bottom: 1rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  .sub-menu li {
+    display: inline;
+  }
+  .sub-menu ul {
+    padding-left: 30%;
+    display: block;
+  }
+  .sub-menu a {
+    font-size: 14px;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    color: rgba(0, 0, 0);
+    margin-right: 1rem;
+    line-height: 63px;
+  }
+  .pointer{
+      cursor: pointer;
+  }
+  @media screen and(max-width:400px) {
+    .sub-menu12 ul {
+      padding-left: 0.5rem !important;
+      overflow: scroll;
+    }
+  }
+  
+  @media screen and (max-width: 869px) {
+    nav {
+      display: none;
+    }
+    .nav2 {
+      background-color: #24292e;
+      height: 62px;
+      width: 97%;
+      padding: 0 13px;
+      line-height: 60px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .fa-bars {
+      color: white;
+    }
+    .nav2 i {
+      display: inline-block;
+      color: white;
+    }
+    /* subnav */
+    .sub-menu1 {
+      display: none;
+    }
+    .sub-menu12 {
+      width: 100%;
+      background-color: #fff;
+      display: block;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      border-bottom: 0.1px solid #e1e4e8;
+      margin: 0 0px 0 -17px;
+      padding-right: 35px;
+  
+      /* padding-top: 10rem; */
+    }
+    .sub-menu12 ul {
+      display: flex;
+      flex-wrap: nowrap;
+      width: 100%;
+      padding-left: 2rem;
+    }
+    /* main-content */
+    main {
+      margin-top: 51px;
+      display: block;
+      padding: 0 1rem;
+      height: 300vh;
+    }
+    main section {
+      justify-content: none;
+    }
+    main section img {
+      width: 100% !important;
+    }
+    main .profile-description .image {
+      width: 20%;
+    }
+    main .list-of-repo {
+      margin-top: 1rem;
+    }
+    main section:first-child {
+      margin-bottom: 1.5rem;
+      padding-left: 0 !important;
+      display: flex;
+    }
+    main:first-child {
+      padding: 30px;
+    }
+    .repository .repo-card {
+      padding: 0.5rem 0 1rem 0;
+    }
+    .hide {
+      display: none;
+    }
+    .profile-details {
+      display: flex;
+      align-items: center;
+    }
+    .image img {
+      width: 100% !important;
+    }
+    .profile-details p {
+      margin-left: 1rem;
+    }
+  }
+  

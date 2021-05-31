@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>May GraphQL challenge</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <!-- Navbar -->
+        <nav>
+          <div class="sec1">
+            <div>
+              <i class="fa fa-bars"></i>
+            </div>
+            <div class="git-logo">
+              <img src="/images/git.jpg" alt="" />
+            </div>
+            <div class="input-bx">
+              <input
+                type="text"
+                placeholder="Search or jump to..."
+                id="input-box"
+              />
+            </div>
+            <ul>
+              <li><a href="">Pull Request</a></li>
+              <li><a href="">Issues</a></li>
+              <li><a href="">Codespaces</a></li>
+              <li><a href="">Marketplace</a></li>
+              <li><a href="">Explore</a></li>
+            </ul>
+          </div>
+          <div class="side-b">
+            <i class="fa fa-bell"></i>
+            <span class="">&plus;<span class="fa fa-caret-down"></span></span>
+            <span class="dp-icon"><img src="./images/propic.jpg" alt="" /></span>
+            <span class="fa fa-caret-down"></span>
+          </div>
+        </nav>
+
+        <!-- mobile view nav -->
+        <div class="nav2">
+          <div class="bars">
+            <span class="fa fa-bars"></span>
+          </div>
+          <div class="git-logo">
+            <img src="/images/git.jpg" alt="" />
+          </div>
+          <div class="side-b">
+            <i class="fa fa-bell"></i>
+          </div>
+        </div>
+      </header>
+      <div class="sub-menu1">
+        <ul>
+          <li>
+            <a href=""> <span></span> Overview</a>
+          </li>
+          <li>
+            <a class="active" href="">
+              <span></span> Repositories <span class="pill">20</span>
+            </a>
+          </li>
+          <li>
+            <a href=""> <span></span> Project</a>
+          </li>
+          <li>
+            <a href=""> <span></span> Packages</a>
+          </li>
+        </ul>
+      </div>
+      <hr />
+
+      <main>
+        <section class="profile-description">
+          <div class="image">
+            <img src="./images/propic.jpg" alt="" />
+          </div>
+          <div class="profile-details">
+            <div class="d1">
+              <h2 class="hide">Ayodeji Adeniy</h2>
+              <p>charayo</p>
+            </div>
+            <br />
+            <div class="about hide">
+              <p style="width: 80%; display: inline-block">
+                Software Dev
+              </p>
+            </div>
+          </div>
+        </section>
+        <div class="sub-menu">
+            <ul>
+              <li>
+                <a href=""> <span></span> Overview</a>
+              </li>
+              <li>
+                <a class="active" href="">
+                  <span></span> Repositories <span class="pill">20</span>
+                </a>
+              </li>
+              <li>
+                <a href=""> <span></span> Project</a>
+              </li>
+              <li>
+                <a href=""> <span></span> Packages</a>
+              </li>
+            </ul>
+          </div>
+        <section class="list-of-repo">
+          <div class="find-repo">
+            <input
+              placeholder="Find a repository..."
+              type="text"
+              name=""
+              id=""
+            />
+          </div>
+
+          <div class="repository">
+            <div class="repo-card">
+                <div class="sect1">
+                    <h2 class="pointer">Earn Manager</h2>
+                    <small>project</small>
+                    <div>
+                      <div class="shift language">
+                          <span style="font-size: 0.7rem;" class="fa fa-circle"></span>
+                          <small>HTML</small>
+                      </div>
+                      <div class="shift">
+                          <span style="font-size: 0.7rem;"   class="fa fa-star"></span>
+                          <small>1</small>
+                      </div>
+                      <div class="shift">
+                          <span style="font-size: 0.7rem;"   class="fas fa-code-branch"></span>
+                          <small>2</small>
+                      </div>
+                      <small>Updated 33 days ago</small>
+                  </div>
+                </div>
+                <div class="sect2">
+                    <button> <span class="fa fa-star"></span> Star</button>
+                </div>
+                
+            </div>
+            <div class="repo-card">
+                <div class="sect1">
+                    <h2 class="pointer">Fiverr Calculator</h2>
+                    <small>project</small>
+                    <div>
+                        <div class="shift language">
+                            <span style="font-size: 0.7rem;" class="fa fa-circle"></span>
+                            <small>HTML</small>
+                        </div>
+                        <div class="shift">
+                            <span style="font-size: 0.7rem;"   class="fa fa-star"></span>
+                            <small>1</small>
+                        </div>
+                        <div class="shift">
+                            <span style="font-size: 0.7rem;"   class="fas fa-code-branch"></span>
+                            <small>2</small>
+                        </div>
+                        <small>Updated 33 days ago</small>
+                    </div>
+                </div>
+                <div class="sect2">
+                    <button> <span class="fa fa-star"></span> Star</button>
+                </div>
+                
+            </div>
+        </div>
+        </section>
+      </main>
+      <hr />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
